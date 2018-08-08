@@ -40,7 +40,7 @@
 		<Metadata name="CommonModule.КомпонентыJavaКлиентСервер.Module" id="a8af846e-adcc-4554-bb4f-b52af7ab9fd3.0" configVersion="26840163d59ae8116b9d0cd2925c381600000000"/>
 		<Metadata name="CommonModule.КомпонентыJavaПовтИсп" id="f307de48-ebea-11e7-549d-0cd2925c3816" configVersion="76fe543850f1e711879a0cd2925c381600000000"/>
 		<Metadata name="CommonModule.КомпонентыJavaПовтИсп.Module" id="f307de48-ebea-11e7-549d-0cd2925c3816.0" configVersion="8e6c5a4eebebe711549d0cd2925c381600000000"/>
-		<Metadata name="Configuration.КомпонентыJava" id="8e5afc24-ce5c-4b4c-89f1-e195f1f76c11" configVersion="9c4089babf94e81136840cd2925c381600000000"/>
+		<Metadata name="Configuration.КомпонентыJava" id="8e5afc24-ce5c-4b4c-89f1-e195f1f76c11" configVersion="ee0b7c81419be81117930cd2925c381600000000"/>
 		<Metadata name="Configuration.КомпонентыJava.CommandInterface" id="0df74922-642a-4faf-af30-76348707b314.a" configVersion="ed3a7ecab96821458911a30a10ac487500000000"/>
 		<Metadata name="Constant.JAVA_HOME" id="5b7a3249-97ab-439f-8b3c-1a01025603c5" configVersion="c8966f453ebfe711319f0cd2925c381600000000"/>
 		<Metadata name="DataProcessor.CSVОбъект" id="caf832cc-ebd6-11e7-549d-0cd2925c3816" configVersion="7a658d50750be811499e0cd2925c381600000000">
