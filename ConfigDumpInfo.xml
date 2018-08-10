@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.4">
 	<ConfigVersions>
-		<Metadata name="Catalog.КомпонентыJava" id="76fbd40d-cfef-4f68-86e5-9a7e0d67aa81" configVersion="24ddc65ad59ae8116b9d0cd2925c381600000000">
+		<Metadata name="Catalog.КомпонентыJava" id="76fbd40d-cfef-4f68-86e5-9a7e0d67aa81" configVersion="f651e7caa19ce81149920cd2925c381600000000">
 			<Metadata name="Catalog.КомпонентыJava.Attribute.Расположение" id="0055af51-bc5a-44b2-8b57-22a6401b171c"/>
 			<Metadata name="Catalog.КомпонентыJava.Attribute.Порт" id="a2d5f6df-95df-4d3e-9d1f-c7d1c7adc4b4"/>
 		</Metadata>
@@ -11,10 +11,12 @@
 		<Metadata name="Catalog.КомпонентыJava.Form.ВыборКаталога" id="83c9d91c-b8fc-4eef-aefd-0052f3746fd2" configVersion="60e8c080220fe811b1850cd2925c381600000000"/>
 		<Metadata name="Catalog.КомпонентыJava.Form.ВыборКаталога.Form" id="83c9d91c-b8fc-4eef-aefd-0052f3746fd2.0" configVersion="aa35c080220fe811b1850cd2925c381600000000"/>
 		<Metadata name="Catalog.КомпонентыJava.Form.ВыборКаталога.Help" id="83c9d91c-b8fc-4eef-aefd-0052f3746fd2.1" configVersion="b8c3263a3ebfe711319f0cd2925c381600000000"/>
-		<Metadata name="Catalog.КомпонентыJava.Form.ФормаСписка" id="e52323fc-25b6-4487-b494-0778a23cd4cf" configVersion="78876f453ebfe711319f0cd2925c381600000000"/>
-		<Metadata name="Catalog.КомпонентыJava.Form.ФормаСписка.Form" id="e52323fc-25b6-4487-b494-0778a23cd4cf.0" configVersion="8adc1d3a3ebfe711319f0cd2925c381600000000"/>
-		<Metadata name="Catalog.КомпонентыJava.Form.ФормаЭлемента" id="9a5fa152-ecde-4afb-a50f-a85f05733ce1" configVersion="ce49592cc094e81136840cd2925c381600000000"/>
-		<Metadata name="Catalog.КомпонентыJava.Form.ФормаЭлемента.Form" id="9a5fa152-ecde-4afb-a50f-a85f05733ce1.0" configVersion="a2548f2bc094e81136840cd2925c381600000000"/>
+		<Metadata name="Catalog.КомпонентыJava.Form.ФормаВыбора" id="bfaa4e32-9c9d-11e8-4992-0cd2925c3816" configVersion="44b1e539a09ce81149920cd2925c381600000000"/>
+		<Metadata name="Catalog.КомпонентыJava.Form.ФормаВыбора.Form" id="bfaa4e32-9c9d-11e8-4992-0cd2925c3816.0" configVersion="e057e439a09ce81149920cd2925c381600000000"/>
+		<Metadata name="Catalog.КомпонентыJava.Form.ФормаСписка" id="e52323fc-25b6-4487-b494-0778a23cd4cf" configVersion="6a85f5caa09ce81149920cd2925c381600000000"/>
+		<Metadata name="Catalog.КомпонентыJava.Form.ФормаСписка.Form" id="e52323fc-25b6-4487-b494-0778a23cd4cf.0" configVersion="2a16f5caa09ce81149920cd2925c381600000000"/>
+		<Metadata name="Catalog.КомпонентыJava.Form.ФормаЭлемента" id="9a5fa152-ecde-4afb-a50f-a85f05733ce1" configVersion="de8ef5caa09ce81149920cd2925c381600000000"/>
+		<Metadata name="Catalog.КомпонентыJava.Form.ФормаЭлемента.Form" id="9a5fa152-ecde-4afb-a50f-a85f05733ce1.0" configVersion="e4056d9fa09ce81149920cd2925c381600000000"/>
 		<Metadata name="Catalog.КомпонентыJava.ManagerModule" id="76fbd40d-cfef-4f68-86e5-9a7e0d67aa81.3" configVersion="8ac6fd57cc93e81149810cd2925c381600000000"/>
 		<Metadata name="Catalog.КомпонентыJava.Predefined" id="76fbd40d-cfef-4f68-86e5-9a7e0d67aa81.1c" configVersion="a4e9d352d59ae8116b9d0cd2925c381600000000"/>
 		<Metadata name="Catalog.КомпонентыJava.Template.emailvalidator" id="e567b310-eb51-11e7-7989-0cd2925c3816" configVersion="fe6a6be83573e811968c0cd2925c381600000000"/>
@@ -25,14 +27,13 @@
 		<Metadata name="Catalog.КомпонентыJava.Template.jmsclient.Template" id="9741b5f2-b579-4c3f-aff9-a8753476df00.0" configVersion="42b4c2371010e811299f0cd2925c381600000000"/>
 		<Metadata name="Catalog.КомпонентыJava.Template.logger" id="66431806-8dcf-11e8-cd95-0cd2925c3816" configVersion="80d574fcf193e8110c9c0cd2925c381600000000"/>
 		<Metadata name="Catalog.КомпонентыJava.Template.logger.Template" id="66431806-8dcf-11e8-cd95-0cd2925c3816.0" configVersion="f0de7cf8f193e8110c9c0cd2925c381600000000"/>
-		<Metadata name="Catalog.КомпонентыJava.Template.regex" id="77077e3c-1036-11e8-4183-0cd2925c3816" configVersion="f6951deeae10e811179c0cd2925c381600000000"/>
-		<Metadata name="Catalog.КомпонентыJava.Template.regex.Template" id="77077e3c-1036-11e8-4183-0cd2925c3816.0" configVersion="5a8328ecae10e811179c0cd2925c381600000000"/>
+		<Metadata name="Catalog.КомпонентыJava.Template.regex" id="c4778804-9ca1-11e8-4992-0cd2925c3816" configVersion="8c4de7caa19ce81149920cd2925c381600000000"/>
 		<Metadata name="Catalog.КомпонентыJava.Template.sftpclient" id="4be5e3f0-eb57-11e7-7989-0cd2925c3816" configVersion="aa14d430d59ae8116b9d0cd2925c381600000000"/>
 		<Metadata name="Catalog.КомпонентыJava.Template.sftpclient.Template" id="4be5e3f0-eb57-11e7-7989-0cd2925c3816.0" configVersion="1ed1a6cd0b10e8114f940cd2925c381600000000"/>
-		<Metadata name="CommonModule.КомпонентыJava" id="83a0a160-fd84-49e2-b20e-a91e8fcea54c" configVersion="5e41939e0c10e8114f940cd2925c381600000000"/>
-		<Metadata name="CommonModule.КомпонентыJava.Module" id="83a0a160-fd84-49e2-b20e-a91e8fcea54c.0" configVersion="8c1d939e0c10e8114f940cd2925c381600000000"/>
-		<Metadata name="CommonModule.КомпонентыJavaAPI" id="bacbcc86-eb4c-11e7-7989-0cd2925c3816" configVersion="64f85d15c094e81136840cd2925c381600000000"/>
-		<Metadata name="CommonModule.КомпонентыJavaAPI.Module" id="bacbcc86-eb4c-11e7-7989-0cd2925c3816.0" configVersion="b4103e04c094e81136840cd2925c381600000000"/>
+		<Metadata name="CommonModule.КомпонентыJava" id="83a0a160-fd84-49e2-b20e-a91e8fcea54c" configVersion="d847e7caa19ce81149920cd2925c381600000000"/>
+		<Metadata name="CommonModule.КомпонентыJava.Module" id="83a0a160-fd84-49e2-b20e-a91e8fcea54c.0" configVersion="0822e7caa19ce81149920cd2925c381600000000"/>
+		<Metadata name="CommonModule.КомпонентыJavaAPI" id="bacbcc86-eb4c-11e7-7989-0cd2925c3816" configVersion="2a2958d19c9ce81149920cd2925c381600000000"/>
+		<Metadata name="CommonModule.КомпонентыJavaAPI.Module" id="bacbcc86-eb4c-11e7-7989-0cd2925c3816.0" configVersion="7ed557d19c9ce81149920cd2925c381600000000"/>
 		<Metadata name="CommonModule.КомпонентыJavaВызовСервера" id="128213f8-380c-4bee-b793-be78fcce77d0" configVersion="5a916f453ebfe711319f0cd2925c381600000000"/>
 		<Metadata name="CommonModule.КомпонентыJavaВызовСервера.Module" id="128213f8-380c-4bee-b793-be78fcce77d0.0" configVersion="cc64173a3ebfe711319f0cd2925c381600000000"/>
 		<Metadata name="CommonModule.КомпонентыJavaКлиент" id="2bf733e3-d0aa-489a-a3ee-2ef3b8e1ee43" configVersion="02c16f453ebfe711319f0cd2925c381600000000"/>
@@ -86,12 +87,6 @@
 		</Metadata>
 		<Metadata name="Language.Русский" id="75f23fa8-8d9b-47bd-abef-7430e97197d4" configVersion="75cd3f47350a3848b7a0971859c9e28d00000000"/>
 		<Metadata name="Subsystem.КомпонентыJava" id="24db3e64-0940-4c6d-92f4-3a8a3c189f9e" configVersion="e08232bbcc93e81149810cd2925c381600000000"/>
-		<Metadata name="Subsystem.КомпонентыJava.Subsystem.Компоненты" id="ff922042-8dcf-11e8-cd95-0cd2925c3816" configVersion="2a8307e2d28de811cd950cd2925c381600000000"/>
-		<Metadata name="Subsystem.КомпонентыJava.Subsystem.Компоненты.Subsystem.EMailВалидатор" id="34dfd576-eb52-11e7-7989-0cd2925c3816" configVersion="0e0c4d4e52ebe71179890cd2925c381600000000"/>
-		<Metadata name="Subsystem.КомпонентыJava.Subsystem.Компоненты.Subsystem.JMSКлиент" id="2b232ede-eb52-11e7-7989-0cd2925c3816" configVersion="e4fe4c4e52ebe71179890cd2925c381600000000"/>
-		<Metadata name="Subsystem.КомпонентыJava.Subsystem.Компоненты.Subsystem.RegEx" id="c6be9640-1036-11e8-4183-0cd2925c3816" configVersion="820a33193710e81141830cd2925c381600000000"/>
-		<Metadata name="Subsystem.КомпонентыJava.Subsystem.Компоненты.Subsystem.SFTP" id="461cbb1a-eb57-11e7-7989-0cd2925c3816" configVersion="0a0efbab57ebe71179890cd2925c381600000000"/>
-		<Metadata name="Subsystem.КомпонентыJava.Subsystem.Компоненты.Subsystem.ИмпортТаблицы" id="e886b8a2-eb56-11e7-7989-0cd2925c3816" configVersion="2a54cb9ad7ebe711549d0cd2925c381600000000"/>
-		<Metadata name="Subsystem.КомпонентыJava.Subsystem.Компоненты.Subsystem.Логгер" id="9311f6c8-8dce-11e8-cd95-0cd2925c3816" configVersion="8e07ea51cf8de811cd950cd2925c381600000000"/>
+		<Metadata name="Subsystem.КомпонентыJava.Subsystem.Компоненты" id="ff922042-8dcf-11e8-cd95-0cd2925c3816" configVersion="529514639c9ce811ba9b0cd2925c381600000000"/>
 	</ConfigVersions>
 </ConfigDumpInfo>

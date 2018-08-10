@@ -290,7 +290,7 @@
 			<DefaultObjectForm>Catalog.КомпонентыJava.Form.ФормаЭлемента</DefaultObjectForm>
 			<DefaultFolderForm/>
 			<DefaultListForm>Catalog.КомпонентыJava.Form.ФормаСписка</DefaultListForm>
-			<DefaultChoiceForm/>
+			<DefaultChoiceForm>Catalog.КомпонентыJava.Form.ФормаВыбора</DefaultChoiceForm>
 			<DefaultFolderChoiceForm/>
 			<AuxiliaryObjectForm/>
 			<AuxiliaryFolderForm/>
@@ -402,12 +402,13 @@
 			<Form>ФормаЭлемента</Form>
 			<Form>ВыборJRE</Form>
 			<Form>ВыборКаталога</Form>
+			<Form>ФормаВыбора</Form>
 			<Template>jmsclient</Template>
 			<Template>emailvalidator</Template>
 			<Template>importtable</Template>
 			<Template>sftpclient</Template>
-			<Template>regex</Template>
 			<Template>logger</Template>
+			<Template>regex</Template>
 		</ChildObjects>
 	</Catalog>
 </MetaDataObject>

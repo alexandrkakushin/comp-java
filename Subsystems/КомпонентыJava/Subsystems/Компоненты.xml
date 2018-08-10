@@ -14,15 +14,17 @@
 			<IncludeInCommandInterface>true</IncludeInCommandInterface>
 			<Explanation/>
 			<Picture/>
-			<Content/>
+			<Content>
+				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.EMailВалидатор</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.JMSКлиент</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.SFTPКлиент</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.SQLОбъект</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.ExcelОбъект</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.CSVОбъект</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.RegEx</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.Логгер</xr:Item>
+			</Content>
 		</Properties>
-		<ChildObjects>
-			<Subsystem>Логгер</Subsystem>
-			<Subsystem>EMailВалидатор</Subsystem>
-			<Subsystem>JMSКлиент</Subsystem>
-			<Subsystem>SFTP</Subsystem>
-			<Subsystem>ИмпортТаблицы</Subsystem>
-			<Subsystem>RegEx</Subsystem>
-		</ChildObjects>
+		<ChildObjects/>
 	</Subsystem>
 </MetaDataObject>
