@@ -19,8 +19,8 @@
 		<Metadata name="Catalog.КомпонентыJava.Form.ФормаЭлемента.Form" id="9a5fa152-ecde-4afb-a50f-a85f05733ce1.0" configVersion="e4056d9fa09ce81149920cd2925c381600000000"/>
 		<Metadata name="Catalog.КомпонентыJava.ManagerModule" id="76fbd40d-cfef-4f68-86e5-9a7e0d67aa81.3" configVersion="8ac6fd57cc93e81149810cd2925c381600000000"/>
 		<Metadata name="Catalog.КомпонентыJava.Predefined" id="76fbd40d-cfef-4f68-86e5-9a7e0d67aa81.1c" configVersion="a4e9d352d59ae8116b9d0cd2925c381600000000"/>
-		<Metadata name="Catalog.КомпонентыJava.Template.emailvalidator" id="e567b310-eb51-11e7-7989-0cd2925c3816" configVersion="fe6a6be83573e811968c0cd2925c381600000000"/>
-		<Metadata name="Catalog.КомпонентыJava.Template.emailvalidator.Template" id="e567b310-eb51-11e7-7989-0cd2925c3816.0" configVersion="2492fc643573e811968c0cd2925c381600000000"/>
+		<Metadata name="Catalog.КомпонентыJava.Template.emailvalidator" id="e567b310-eb51-11e7-7989-0cd2925c3816" configVersion="b4069a43ae9ce81149920cd2925c381600000000"/>
+		<Metadata name="Catalog.КомпонентыJava.Template.emailvalidator.Template" id="e567b310-eb51-11e7-7989-0cd2925c3816.0" configVersion="969c8d41ae9ce81149920cd2925c381600000000"/>
 		<Metadata name="Catalog.КомпонентыJava.Template.importtable" id="ce6e1ea6-eb56-11e7-7989-0cd2925c3816" configVersion="bc9a5cdd1010e811299f0cd2925c381600000000"/>
 		<Metadata name="Catalog.КомпонентыJava.Template.importtable.Template" id="ce6e1ea6-eb56-11e7-7989-0cd2925c3816.0" configVersion="1e5cb1d81010e811299f0cd2925c381600000000"/>
 		<Metadata name="Catalog.КомпонентыJava.Template.jmsclient" id="9741b5f2-b579-4c3f-aff9-a8753476df00" configVersion="78895cdd1010e811299f0cd2925c381600000000"/>
@@ -41,38 +41,38 @@
 		<Metadata name="CommonModule.КомпонентыJavaКлиентСервер.Module" id="a8af846e-adcc-4554-bb4f-b52af7ab9fd3.0" configVersion="26840163d59ae8116b9d0cd2925c381600000000"/>
 		<Metadata name="CommonModule.КомпонентыJavaПовтИсп" id="f307de48-ebea-11e7-549d-0cd2925c3816" configVersion="76fe543850f1e711879a0cd2925c381600000000"/>
 		<Metadata name="CommonModule.КомпонентыJavaПовтИсп.Module" id="f307de48-ebea-11e7-549d-0cd2925c3816.0" configVersion="8e6c5a4eebebe711549d0cd2925c381600000000"/>
-		<Metadata name="Configuration.КомпонентыJava" id="8e5afc24-ce5c-4b4c-89f1-e195f1f76c11" configVersion="ee0b7c81419be81117930cd2925c381600000000"/>
+		<Metadata name="Configuration.КомпонентыJava" id="8e5afc24-ce5c-4b4c-89f1-e195f1f76c11" configVersion="0c24c719ae9ce81149920cd2925c381600000000"/>
 		<Metadata name="Configuration.КомпонентыJava.CommandInterface" id="0df74922-642a-4faf-af30-76348707b314.a" configVersion="ed3a7ecab96821458911a30a10ac487500000000"/>
 		<Metadata name="Constant.JAVA_HOME" id="5b7a3249-97ab-439f-8b3c-1a01025603c5" configVersion="c8966f453ebfe711319f0cd2925c381600000000"/>
-		<Metadata name="DataProcessor.CSVОбъект" id="caf832cc-ebd6-11e7-549d-0cd2925c3816" configVersion="7a658d50750be811499e0cd2925c381600000000">
+		<Metadata name="DataProcessor.CSVОбъект" id="caf832cc-ebd6-11e7-549d-0cd2925c3816" configVersion="e23fc2d7ad9ce81149920cd2925c381600000000">
 			<Metadata name="DataProcessor.CSVОбъект.Attribute.Источник" id="3321eaca-f45e-11e7-f383-0cd2925c3816"/>
 			<Metadata name="DataProcessor.CSVОбъект.Attribute.Кодировка" id="a86bd8b8-f45e-11e7-f383-0cd2925c3816"/>
 			<Metadata name="DataProcessor.CSVОбъект.Attribute.Разделитель" id="f4ecc04e-f45e-11e7-f383-0cd2925c3816"/>
 		</Metadata>
-		<Metadata name="DataProcessor.CSVОбъект.ObjectModule" id="caf832cc-ebd6-11e7-549d-0cd2925c3816.0" configVersion="7e021339750be811499e0cd2925c381600000000"/>
-		<Metadata name="DataProcessor.EMailВалидатор" id="2d4ff6a2-eb4c-11e7-7989-0cd2925c3816" configVersion="da706be83573e811968c0cd2925c381600000000"/>
-		<Metadata name="DataProcessor.EMailВалидатор.ObjectModule" id="2d4ff6a2-eb4c-11e7-7989-0cd2925c3816.0" configVersion="e6506be83573e811968c0cd2925c381600000000"/>
-		<Metadata name="DataProcessor.ExcelОбъект" id="be26d25a-ebd6-11e7-549d-0cd2925c3816" configVersion="34210665770be811499e0cd2925c381600000000">
+		<Metadata name="DataProcessor.CSVОбъект.ObjectModule" id="caf832cc-ebd6-11e7-549d-0cd2925c3816.0" configVersion="eaead476ad9ce81149920cd2925c381600000000"/>
+		<Metadata name="DataProcessor.EMailВалидатор" id="2d4ff6a2-eb4c-11e7-7989-0cd2925c3816" configVersion="2ca57a1cac9ce81149920cd2925c381600000000"/>
+		<Metadata name="DataProcessor.EMailВалидатор.ObjectModule" id="2d4ff6a2-eb4c-11e7-7989-0cd2925c3816.0" configVersion="80517a1cac9ce81149920cd2925c381600000000"/>
+		<Metadata name="DataProcessor.ExcelОбъект" id="be26d25a-ebd6-11e7-549d-0cd2925c3816" configVersion="584cc2d7ad9ce81149920cd2925c381600000000">
 			<Metadata name="DataProcessor.ExcelОбъект.Attribute.Расширение" id="ea4eeab6-0b71-11e8-499e-0cd2925c3816"/>
 			<Metadata name="DataProcessor.ExcelОбъект.Attribute.Источник" id="f4eb248a-0b71-11e8-499e-0cd2925c3816"/>
 		</Metadata>
-		<Metadata name="DataProcessor.ExcelОбъект.ObjectModule" id="be26d25a-ebd6-11e7-549d-0cd2925c3816.0" configVersion="60fa0565770be811499e0cd2925c381600000000"/>
-		<Metadata name="DataProcessor.JMSКлиент" id="1e01a942-eb52-11e7-7989-0cd2925c3816" configVersion="646e6f6b5ef1e711879a0cd2925c381600000000">
+		<Metadata name="DataProcessor.ExcelОбъект.ObjectModule" id="be26d25a-ebd6-11e7-549d-0cd2925c3816.0" configVersion="9e8f7258ad9ce81149920cd2925c381600000000"/>
+		<Metadata name="DataProcessor.JMSКлиент" id="1e01a942-eb52-11e7-7989-0cd2925c3816" configVersion="4a46c2d7ad9ce81149920cd2925c381600000000">
 			<Metadata name="DataProcessor.JMSКлиент.Attribute.Адрес" id="067a0bc4-eb58-11e7-7989-0cd2925c3816"/>
 			<Metadata name="DataProcessor.JMSКлиент.Attribute.Логин" id="0d501a42-eb58-11e7-7989-0cd2925c3816"/>
 			<Metadata name="DataProcessor.JMSКлиент.Attribute.Пароль" id="1113956e-eb58-11e7-7989-0cd2925c3816"/>
 		</Metadata>
-		<Metadata name="DataProcessor.JMSКлиент.ObjectModule" id="1e01a942-eb52-11e7-7989-0cd2925c3816.0" configVersion="c44f6f6b5ef1e711879a0cd2925c381600000000"/>
-		<Metadata name="DataProcessor.RegEx" id="afdb51c0-1036-11e8-4183-0cd2925c3816" configVersion="80642cb5ad10e811179c0cd2925c381600000000"/>
-		<Metadata name="DataProcessor.RegEx.ObjectModule" id="afdb51c0-1036-11e8-4183-0cd2925c3816.0" configVersion="9e462cb5ad10e811179c0cd2925c381600000000"/>
-		<Metadata name="DataProcessor.SFTPКлиент" id="52bd0a83-eb57-11e7-7989-0cd2925c3816" configVersion="cefffb44d59ae8116b9d0cd2925c381600000000">
+		<Metadata name="DataProcessor.JMSКлиент.ObjectModule" id="1e01a942-eb52-11e7-7989-0cd2925c3816.0" configVersion="94876905ad9ce81149920cd2925c381600000000"/>
+		<Metadata name="DataProcessor.RegEx" id="afdb51c0-1036-11e8-4183-0cd2925c3816" configVersion="923ac2d7ad9ce81149920cd2925c381600000000"/>
+		<Metadata name="DataProcessor.RegEx.ObjectModule" id="afdb51c0-1036-11e8-4183-0cd2925c3816.0" configVersion="24b36ea3ad9ce81149920cd2925c381600000000"/>
+		<Metadata name="DataProcessor.SFTPКлиент" id="52bd0a83-eb57-11e7-7989-0cd2925c3816" configVersion="9028c2d7ad9ce81149920cd2925c381600000000">
 			<Metadata name="DataProcessor.SFTPКлиент.Attribute.uuid" id="2ac5cbc8-0d8e-11e8-3093-0cd2925c3816"/>
 			<Metadata name="DataProcessor.SFTPКлиент.Attribute.Хост" id="7f7fcc1e-0d8d-11e8-3093-0cd2925c3816"/>
 			<Metadata name="DataProcessor.SFTPКлиент.Attribute.Пользователь" id="8a8d4e92-0d8d-11e8-3093-0cd2925c3816"/>
 			<Metadata name="DataProcessor.SFTPКлиент.Attribute.Пароль" id="8f74adb0-0d8d-11e8-3093-0cd2925c3816"/>
 			<Metadata name="DataProcessor.SFTPКлиент.Attribute.Порт" id="935fe624-0d8d-11e8-3093-0cd2925c3816"/>
 		</Metadata>
-		<Metadata name="DataProcessor.SFTPКлиент.ObjectModule" id="52bd0a83-eb57-11e7-7989-0cd2925c3816.0" configVersion="e21f8c44d59ae8116b9d0cd2925c381600000000"/>
+		<Metadata name="DataProcessor.SFTPКлиент.ObjectModule" id="52bd0a83-eb57-11e7-7989-0cd2925c3816.0" configVersion="e0d58959ad9ce81149920cd2925c381600000000"/>
 		<Metadata name="DataProcessor.SQLОбъект" id="de05acbe-eb56-11e7-7989-0cd2925c3816" configVersion="ec3ccb9ad7ebe711549d0cd2925c381600000000"/>
 		<Metadata name="DataProcessor.Логгер" id="bf02abda-8dce-11e8-cd95-0cd2925c3816" configVersion="6e115e15c094e81136840cd2925c381600000000">
 			<Metadata name="DataProcessor.Логгер.Attribute.InMemory" id="32767092-8de1-11e8-cd95-0cd2925c3816"/>
