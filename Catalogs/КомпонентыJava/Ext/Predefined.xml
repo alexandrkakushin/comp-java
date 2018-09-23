@@ -18,6 +18,12 @@
 		<Description>SFTP клиент</Description>
 		<IsFolder>false</IsFolder>
 	</Item>
+	<Item id="ae543fee-bf70-11e8-7a8d-0cd2925c3816">
+		<Name>sshclient</Name>
+		<Code>000000007</Code>
+		<Description>SSH клиент</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
 	<Item id="c3d8c9dc-eb56-11e7-7989-0cd2925c3816">
 		<Name>importtable</Name>
 		<Code>000000003</Code>

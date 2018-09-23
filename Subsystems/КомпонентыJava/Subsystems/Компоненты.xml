@@ -23,6 +23,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.CSVОбъект</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.RegEx</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.Логгер</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.SSHКлиент</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>

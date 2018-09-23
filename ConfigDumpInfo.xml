@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.4">
 	<ConfigVersions>
-		<Metadata name="Catalog.КомпонентыJava" id="76fbd40d-cfef-4f68-86e5-9a7e0d67aa81" configVersion="f651e7caa19ce81149920cd2925c381600000000">
+		<Metadata name="Catalog.КомпонентыJava" id="76fbd40d-cfef-4f68-86e5-9a7e0d67aa81" configVersion="2805306971bfe8117a8d0cd2925c381600000000">
 			<Metadata name="Catalog.КомпонентыJava.Attribute.Расположение" id="0055af51-bc5a-44b2-8b57-22a6401b171c"/>
 			<Metadata name="Catalog.КомпонентыJava.Attribute.Порт" id="a2d5f6df-95df-4d3e-9d1f-c7d1c7adc4b4"/>
 		</Metadata>
@@ -18,11 +18,11 @@
 		<Metadata name="Catalog.КомпонентыJava.Form.ФормаЭлемента" id="9a5fa152-ecde-4afb-a50f-a85f05733ce1" configVersion="de8ef5caa09ce81149920cd2925c381600000000"/>
 		<Metadata name="Catalog.КомпонентыJava.Form.ФормаЭлемента.Form" id="9a5fa152-ecde-4afb-a50f-a85f05733ce1.0" configVersion="e4056d9fa09ce81149920cd2925c381600000000"/>
 		<Metadata name="Catalog.КомпонентыJava.ManagerModule" id="76fbd40d-cfef-4f68-86e5-9a7e0d67aa81.3" configVersion="8ac6fd57cc93e81149810cd2925c381600000000"/>
-		<Metadata name="Catalog.КомпонентыJava.Predefined" id="76fbd40d-cfef-4f68-86e5-9a7e0d67aa81.1c" configVersion="a4e9d352d59ae8116b9d0cd2925c381600000000"/>
+		<Metadata name="Catalog.КомпонентыJava.Predefined" id="76fbd40d-cfef-4f68-86e5-9a7e0d67aa81.1c" configVersion="acc0b9b470bfe8117a8d0cd2925c381600000000"/>
 		<Metadata name="Catalog.КомпонентыJava.Template.emailvalidator" id="e567b310-eb51-11e7-7989-0cd2925c3816" configVersion="b4069a43ae9ce81149920cd2925c381600000000"/>
 		<Metadata name="Catalog.КомпонентыJava.Template.emailvalidator.Template" id="e567b310-eb51-11e7-7989-0cd2925c3816.0" configVersion="969c8d41ae9ce81149920cd2925c381600000000"/>
-		<Metadata name="Catalog.КомпонентыJava.Template.importtable" id="ce6e1ea6-eb56-11e7-7989-0cd2925c3816" configVersion="bc9a5cdd1010e811299f0cd2925c381600000000"/>
-		<Metadata name="Catalog.КомпонентыJava.Template.importtable.Template" id="ce6e1ea6-eb56-11e7-7989-0cd2925c3816.0" configVersion="1e5cb1d81010e811299f0cd2925c381600000000"/>
+		<Metadata name="Catalog.КомпонентыJava.Template.importtable" id="ce6e1ea6-eb56-11e7-7989-0cd2925c3816" configVersion="c0f3fee5f5bde81162960cd2925c381600000000"/>
+		<Metadata name="Catalog.КомпонентыJava.Template.importtable.Template" id="ce6e1ea6-eb56-11e7-7989-0cd2925c3816.0" configVersion="eef982e2f5bde81162960cd2925c381600000000"/>
 		<Metadata name="Catalog.КомпонентыJava.Template.jmsclient" id="9741b5f2-b579-4c3f-aff9-a8753476df00" configVersion="78895cdd1010e811299f0cd2925c381600000000"/>
 		<Metadata name="Catalog.КомпонентыJava.Template.jmsclient.Template" id="9741b5f2-b579-4c3f-aff9-a8753476df00.0" configVersion="42b4c2371010e811299f0cd2925c381600000000"/>
 		<Metadata name="Catalog.КомпонентыJava.Template.logger" id="66431806-8dcf-11e8-cd95-0cd2925c3816" configVersion="80d574fcf193e8110c9c0cd2925c381600000000"/>
@@ -30,18 +30,20 @@
 		<Metadata name="Catalog.КомпонентыJava.Template.regex" id="c4778804-9ca1-11e8-4992-0cd2925c3816" configVersion="8c4de7caa19ce81149920cd2925c381600000000"/>
 		<Metadata name="Catalog.КомпонентыJava.Template.sftpclient" id="4be5e3f0-eb57-11e7-7989-0cd2925c3816" configVersion="aa14d430d59ae8116b9d0cd2925c381600000000"/>
 		<Metadata name="Catalog.КомпонентыJava.Template.sftpclient.Template" id="4be5e3f0-eb57-11e7-7989-0cd2925c3816.0" configVersion="1ed1a6cd0b10e8114f940cd2925c381600000000"/>
+		<Metadata name="Catalog.КомпонентыJava.Template.sshclient" id="51958ece-bf71-11e8-7a8d-0cd2925c3816" configVersion="128d73ea80bfe8117a8d0cd2925c381600000000"/>
+		<Metadata name="Catalog.КомпонентыJava.Template.sshclient.Template" id="51958ece-bf71-11e8-7a8d-0cd2925c3816.0" configVersion="0a16a3e480bfe8117a8d0cd2925c381600000000"/>
 		<Metadata name="CommonModule.КомпонентыJava" id="83a0a160-fd84-49e2-b20e-a91e8fcea54c" configVersion="14945ceba4bce811d8990cd2925c381600000000"/>
 		<Metadata name="CommonModule.КомпонентыJava.Module" id="83a0a160-fd84-49e2-b20e-a91e8fcea54c.0" configVersion="c2685ceba4bce811d8990cd2925c381600000000"/>
-		<Metadata name="CommonModule.КомпонентыJavaAPI" id="bacbcc86-eb4c-11e7-7989-0cd2925c3816" configVersion="18dc24baa8bce811d8990cd2925c381600000000"/>
-		<Metadata name="CommonModule.КомпонентыJavaAPI.Module" id="bacbcc86-eb4c-11e7-7989-0cd2925c3816.0" configVersion="e05dc8aea8bce811d8990cd2925c381600000000"/>
+		<Metadata name="CommonModule.КомпонентыJavaAPI" id="bacbcc86-eb4c-11e7-7989-0cd2925c3816" configVersion="5891a72379bfe8117a8d0cd2925c381600000000"/>
+		<Metadata name="CommonModule.КомпонентыJavaAPI.Module" id="bacbcc86-eb4c-11e7-7989-0cd2925c3816.0" configVersion="002d474475bfe8117a8d0cd2925c381600000000"/>
 		<Metadata name="CommonModule.КомпонентыJavaВызовСервера" id="128213f8-380c-4bee-b793-be78fcce77d0" configVersion="5a916f453ebfe711319f0cd2925c381600000000"/>
 		<Metadata name="CommonModule.КомпонентыJavaВызовСервера.Module" id="128213f8-380c-4bee-b793-be78fcce77d0.0" configVersion="cc64173a3ebfe711319f0cd2925c381600000000"/>
 		<Metadata name="CommonModule.КомпонентыJavaКлиент" id="2bf733e3-d0aa-489a-a3ee-2ef3b8e1ee43" configVersion="02c16f453ebfe711319f0cd2925c381600000000"/>
-		<Metadata name="CommonModule.КомпонентыJavaКлиентСервер" id="a8af846e-adcc-4554-bb4f-b52af7ab9fd3" configVersion="e8b20163d59ae8116b9d0cd2925c381600000000"/>
-		<Metadata name="CommonModule.КомпонентыJavaКлиентСервер.Module" id="a8af846e-adcc-4554-bb4f-b52af7ab9fd3.0" configVersion="26840163d59ae8116b9d0cd2925c381600000000"/>
+		<Metadata name="CommonModule.КомпонентыJavaКлиентСервер" id="a8af846e-adcc-4554-bb4f-b52af7ab9fd3" configVersion="00fb2f6971bfe8117a8d0cd2925c381600000000"/>
+		<Metadata name="CommonModule.КомпонентыJavaКлиентСервер.Module" id="a8af846e-adcc-4554-bb4f-b52af7ab9fd3.0" configVersion="d47c8b6771bfe8117a8d0cd2925c381600000000"/>
 		<Metadata name="CommonModule.КомпонентыJavaПовтИсп" id="f307de48-ebea-11e7-549d-0cd2925c3816" configVersion="76fe543850f1e711879a0cd2925c381600000000"/>
 		<Metadata name="CommonModule.КомпонентыJavaПовтИсп.Module" id="f307de48-ebea-11e7-549d-0cd2925c3816.0" configVersion="8e6c5a4eebebe711549d0cd2925c381600000000"/>
-		<Metadata name="Configuration.КомпонентыJava" id="8e5afc24-ce5c-4b4c-89f1-e195f1f76c11" configVersion="b4a95507b2bce811d8990cd2925c381600000000"/>
+		<Metadata name="Configuration.КомпонентыJava" id="8e5afc24-ce5c-4b4c-89f1-e195f1f76c11" configVersion="10dac8757dbfe8117a8d0cd2925c381600000000"/>
 		<Metadata name="Configuration.КомпонентыJava.CommandInterface" id="0df74922-642a-4faf-af30-76348707b314.a" configVersion="ed3a7ecab96821458911a30a10ac487500000000"/>
 		<Metadata name="Constant.JAVA_HOME" id="5b7a3249-97ab-439f-8b3c-1a01025603c5" configVersion="c8966f453ebfe711319f0cd2925c381600000000"/>
 		<Metadata name="DataProcessor.CSVОбъект" id="caf832cc-ebd6-11e7-549d-0cd2925c3816" configVersion="e23fc2d7ad9ce81149920cd2925c381600000000">
@@ -78,6 +80,14 @@
 		</Metadata>
 		<Metadata name="DataProcessor.SQLОбъект.ManagerModule" id="de05acbe-eb56-11e7-7989-0cd2925c3816.2" configVersion="f25fe105b1bce811d8990cd2925c381600000000"/>
 		<Metadata name="DataProcessor.SQLОбъект.ObjectModule" id="de05acbe-eb56-11e7-7989-0cd2925c3816.0" configVersion="f27f24baa8bce811d8990cd2925c381600000000"/>
+		<Metadata name="DataProcessor.SSHКлиент" id="6ec93112-bf71-11e8-7a8d-0cd2925c3816" configVersion="248c148e80bfe8117a8d0cd2925c381600000000">
+			<Metadata name="DataProcessor.SSHКлиент.Attribute.Хост" id="5662599a-bf72-11e8-7a8d-0cd2925c3816"/>
+			<Metadata name="DataProcessor.SSHКлиент.Attribute.Пользователь" id="5882e2ee-bf72-11e8-7a8d-0cd2925c3816"/>
+			<Metadata name="DataProcessor.SSHКлиент.Attribute.Пароль" id="5a1c7dcc-bf72-11e8-7a8d-0cd2925c3816"/>
+			<Metadata name="DataProcessor.SSHКлиент.Attribute.Порт" id="5ee1be44-bf72-11e8-7a8d-0cd2925c3816"/>
+			<Metadata name="DataProcessor.SSHКлиент.Attribute.uuid" id="6249502e-bf72-11e8-7a8d-0cd2925c3816"/>
+		</Metadata>
+		<Metadata name="DataProcessor.SSHКлиент.ObjectModule" id="6ec93112-bf71-11e8-7a8d-0cd2925c3816.0" configVersion="12f4138e80bfe8117a8d0cd2925c381600000000"/>
 		<Metadata name="DataProcessor.Логгер" id="bf02abda-8dce-11e8-cd95-0cd2925c3816" configVersion="6e115e15c094e81136840cd2925c381600000000">
 			<Metadata name="DataProcessor.Логгер.Attribute.InMemory" id="32767092-8de1-11e8-cd95-0cd2925c3816"/>
 			<Metadata name="DataProcessor.Логгер.Attribute.ИмяФайла" id="df82dc2a-8dce-11e8-cd95-0cd2925c3816"/>
@@ -91,6 +101,6 @@
 		</Metadata>
 		<Metadata name="Language.Русский" id="75f23fa8-8d9b-47bd-abef-7430e97197d4" configVersion="75cd3f47350a3848b7a0971859c9e28d00000000"/>
 		<Metadata name="Subsystem.КомпонентыJava" id="24db3e64-0940-4c6d-92f4-3a8a3c189f9e" configVersion="e08232bbcc93e81149810cd2925c381600000000"/>
-		<Metadata name="Subsystem.КомпонентыJava.Subsystem.Компоненты" id="ff922042-8dcf-11e8-cd95-0cd2925c3816" configVersion="529514639c9ce811ba9b0cd2925c381600000000"/>
+		<Metadata name="Subsystem.КомпонентыJava.Subsystem.Компоненты" id="ff922042-8dcf-11e8-cd95-0cd2925c3816" configVersion="1e99a72379bfe8117a8d0cd2925c381600000000"/>
 	</ConfigVersions>
 </ConfigDumpInfo>

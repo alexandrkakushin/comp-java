@@ -409,6 +409,7 @@
 			<Template>sftpclient</Template>
 			<Template>logger</Template>
 			<Template>regex</Template>
+			<Template>sshclient</Template>
 		</ChildObjects>
 	</Catalog>
 </MetaDataObject>
