@@ -13,6 +13,7 @@ COMP_JMSCLIENT='jmsclient'
 COMP_REGEX='regex'
 COMP_EMAILVALIDATOR='emailvalidator'
 COMP_SSHCLIENT='sshclient'
+COMP_IMPORTTABLE='importtable'
 
 GIT_COMPJAVA="${GIT_REPOSITORIES}/comp-java.git"
 
@@ -52,14 +53,14 @@ if [ ! -e ${JAVA_SOURCE_DIR} ]
 then
   mkdir ${JAVA_SOURCE_DIR} 
 fi
-for comp in ${COMP_LOGGER} ${COMP_SFTPCLIENT} ${COMP_JMSCLIENT} ${COMP_REGEX} ${COMP_EMAILVALIDATOR} ${COMP_SSHCLIENT}
+for comp in ${COMP_LOGGER} ${COMP_SFTPCLIENT} ${COMP_JMSCLIENT} ${COMP_REGEX} ${COMP_EMAILVALIDATOR} ${COMP_SSHCLIENT} ${COMP_IMPORTTABLE}
 do
   echo ${comp}
   clone_pull_repository ${JAVA_SOURCE_DIR} "comp-java-${comp}" "${GIT_REPOSITORIES}/comp-java-${comp}.git"
 done
 
 echo '\nBuilding...'
-for component in ${COMP_LOGGER} ${COMP_SFTPCLIENT} ${COMP_JMSCLIENT} ${COMP_REGEX} ${COMP_EMAILVALIDATOR} ${COMP_SSHCLIENT};
+for component in ${COMP_LOGGER} ${COMP_SFTPCLIENT} ${COMP_JMSCLIENT} ${COMP_REGEX} ${COMP_EMAILVALIDATOR} ${COMP_SSHCLIENT} ${COMP_IMPORTTABLE};
 do  
   mvn clean install -f "comp-java-${component}"
   JAR_FILE="${JAVA_SOURCE_DIR}/comp-java-${component}/target/${component}-jar-with-dependencies.jar"
