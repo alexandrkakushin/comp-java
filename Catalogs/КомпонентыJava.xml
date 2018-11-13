@@ -410,6 +410,7 @@
 			<Template>logger</Template>
 			<Template>regex</Template>
 			<Template>sshclient</Template>
+			<Template>ldapclient</Template>
 		</ChildObjects>
 	</Catalog>
 </MetaDataObject>

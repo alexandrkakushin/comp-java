@@ -45,7 +45,7 @@
 			<ScriptVariant>Russian</ScriptVariant>
 			<DefaultRoles/>
 			<Vendor>Александр Какушин (alexandrkakushin@yandex.ru)</Vendor>
-			<Version>1.0.2.1</Version>
+			<Version>1.1.8.3</Version>
 			<UpdateCatalogAddress/>
 			<IncludeHelpInContents>false</IncludeHelpInContents>
 			<UseManagedFormInOrdinaryApplication>true</UseManagedFormInOrdinaryApplication>
@@ -157,6 +157,7 @@
 			<DataProcessor>RegEx</DataProcessor>
 			<DataProcessor>Логгер</DataProcessor>
 			<DataProcessor>SSHКлиент</DataProcessor>
+			<DataProcessor>LDAPКлиент</DataProcessor>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>

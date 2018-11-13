@@ -12,6 +12,12 @@
 		<Description>JMS клиент</Description>
 		<IsFolder>false</IsFolder>
 	</Item>
+	<Item id="3ca28a8d-2adc-45e5-b483-d46b5fb4ecb5">
+		<Name>ldapclient</Name>
+		<Code>000000008</Code>
+		<Description>LDAP клиент</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
 	<Item id="870acc48-eb57-11e7-7989-0cd2925c3816">
 		<Name>sftpclient</Name>
 		<Code>000000004</Code>

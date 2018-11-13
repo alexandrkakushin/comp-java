@@ -24,6 +24,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.RegEx</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.Логгер</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.SSHКлиент</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.LDAPКлиент</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>
