@@ -68,7 +68,7 @@
 			<Metadata name="DataProcessor.JMSКлиент.Attribute.Пароль" id="1113956e-eb58-11e7-7989-0cd2925c3816"/>
 		</Metadata>
 		<Metadata name="DataProcessor.JMSКлиент.ObjectModule" id="1e01a942-eb52-11e7-7989-0cd2925c3816.0" configVersion="94876905ad9ce81149920cd2925c381600000000"/>
-		<Metadata name="DataProcessor.LDAPКлиент" id="4dc953ca-92cb-4c2d-a174-b3b9e393f68e" configVersion="79cbd874557df345bf565ca3ead1a30f00000000">
+		<Metadata name="DataProcessor.LDAPКлиент" id="4dc953ca-92cb-4c2d-a174-b3b9e393f68e" configVersion="c037010cfee9e81186920cd2925c381600000000">
 			<Metadata name="DataProcessor.LDAPКлиент.Attribute.Хост" id="0e9699a6-7b96-49c4-8fcc-d632a0802ebd"/>
 			<Metadata name="DataProcessor.LDAPКлиент.Attribute.uuid" id="2c1b09f5-8253-4e6a-aadb-78a3adefbb3a"/>
 			<Metadata name="DataProcessor.LDAPКлиент.Attribute.Домен" id="360476cb-b776-400a-91f1-4e1c8ebdf217"/>
@@ -78,7 +78,7 @@
 			<Metadata name="DataProcessor.LDAPКлиент.Attribute.ВидLDAP" id="e4405d2c-e7dc-409a-b579-8ac5c6530f11"/>
 		</Metadata>
 		<Metadata name="DataProcessor.LDAPКлиент.ManagerModule" id="4dc953ca-92cb-4c2d-a174-b3b9e393f68e.2" configVersion="34d185c32af3ff41b55204041d9d5ab400000000"/>
-		<Metadata name="DataProcessor.LDAPКлиент.ObjectModule" id="4dc953ca-92cb-4c2d-a174-b3b9e393f68e.0" configVersion="7110540f21fe5444a1fb9b5a75396d9d00000000"/>
+		<Metadata name="DataProcessor.LDAPКлиент.ObjectModule" id="4dc953ca-92cb-4c2d-a174-b3b9e393f68e.0" configVersion="d61c010cfee9e81186920cd2925c381600000000"/>
 		<Metadata name="DataProcessor.RegEx" id="afdb51c0-1036-11e8-4183-0cd2925c3816" configVersion="923ac2d7ad9ce81149920cd2925c381600000000"/>
 		<Metadata name="DataProcessor.RegEx.ObjectModule" id="afdb51c0-1036-11e8-4183-0cd2925c3816.0" configVersion="24b36ea3ad9ce81149920cd2925c381600000000"/>
 		<Metadata name="DataProcessor.SFTPКлиент" id="52bd0a83-eb57-11e7-7989-0cd2925c3816" configVersion="9028c2d7ad9ce81149920cd2925c381600000000">
