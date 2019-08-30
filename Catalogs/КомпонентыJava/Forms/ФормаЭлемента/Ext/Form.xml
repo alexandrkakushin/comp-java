@@ -110,12 +110,37 @@
 						</CheckBoxField>
 					</ChildItems>
 				</UsualGroup>
-				<LabelField name="ВерсияКомпоненты" id="31">
-					<DataPath>ВерсияКомпоненты</DataPath>
-					<ReadOnly>true</ReadOnly>
-					<ContextMenu name="ВерсияКомпонентыКонтекстноеМеню" id="32"/>
-					<ExtendedTooltip name="ВерсияКомпонентыРасширеннаяПодсказка" id="33"/>
-				</LabelField>
+				<UsualGroup name="ГруппаВерсия" id="39">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа версия</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа версия</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Group>Horizontal</Group>
+					<Representation>None</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="ГруппаВерсияРасширеннаяПодсказка" id="40"/>
+					<ChildItems>
+						<LabelField name="ВерсияКомпоненты" id="31">
+							<DataPath>ВерсияКомпоненты</DataPath>
+							<ReadOnly>true</ReadOnly>
+							<ContextMenu name="ВерсияКомпонентыКонтекстноеМеню" id="32"/>
+							<ExtendedTooltip name="ВерсияКомпонентыРасширеннаяПодсказка" id="33"/>
+						</LabelField>
+						<Button name="ИсторияИзменений" id="41">
+							<Type>Hyperlink</Type>
+							<CommandName>Form.Command.ИсторияИзменений</CommandName>
+							<ExtendedTooltip name="ИсторияИзмененийРасширеннаяПодсказка" id="42"/>
+						</Button>
+					</ChildItems>
+				</UsualGroup>
 			</ChildItems>
 		</UsualGroup>
 		<UsualGroup name="СтраницаСистемныеНастройки" id="34">
@@ -257,6 +282,21 @@
 				</v8:item>
 			</ToolTip>
 			<Action>Проверить</Action>
+		</Command>
+		<Command name="ИсторияИзменений" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>История изменений</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>История изменений</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ИсторияИзменений</Action>
 		</Command>
 	</Commands>
 </Form>

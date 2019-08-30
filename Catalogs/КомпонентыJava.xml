@@ -403,6 +403,7 @@
 			<Form>ВыборJRE</Form>
 			<Form>ВыборКаталога</Form>
 			<Form>ФормаВыбора</Form>
+			<Form>ИсторияИзменений</Form>
 			<Template>jmsclient</Template>
 			<Template>emailvalidator</Template>
 			<Template>importtable</Template>
