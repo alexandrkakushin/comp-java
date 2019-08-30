@@ -1,9 +1,10 @@
 #!/bin/bash
-# Скрипт для сборки подсистемы "Компоненты Java"
+# Скрипт для сборки конфигурации "Компоненты Java"
 
 clear
 
-BASEDIR="$(pwd)"
+#BASEDIR="$(pwd)"
+BASEDIR="/tmp/comp-java"
 
 GIT_REPOSITORIES='https://github.com/alexandrkakushin'
 
@@ -14,7 +15,9 @@ COMP_REGEX='regex'
 COMP_EMAILVALIDATOR='emailvalidator'
 COMP_SSHCLIENT='sshclient'
 COMP_IMPORTTABLE='importtable'
+COMP_LDAPCLIENT='ldapclient'
 
+COMPONENTS="${COMP_LOGGER} ${COMP_SFTPCLIENT} ${COMP_JMSCLIENT} ${COMP_REGEX} ${COMP_EMAILVALIDATOR} ${COMP_SSHCLIENT} ${COMP_IMPORTTABLE} ${COMP_LDAPCLIENT}"
 GIT_COMPJAVA="${GIT_REPOSITORIES}/comp-java.git"
 
 TEMPLATES_DIR="${BASEDIR}/comp-java/Catalogs/КомпонентыJava/Templates"
@@ -53,20 +56,29 @@ if [ ! -e ${JAVA_SOURCE_DIR} ]
 then
   mkdir ${JAVA_SOURCE_DIR} 
 fi
-for comp in ${COMP_LOGGER} ${COMP_SFTPCLIENT} ${COMP_JMSCLIENT} ${COMP_REGEX} ${COMP_EMAILVALIDATOR} ${COMP_SSHCLIENT} ${COMP_IMPORTTABLE}
+for component in ${COMPONENTS}
 do
-  echo ${comp}
-  clone_pull_repository ${JAVA_SOURCE_DIR} "comp-java-${comp}" "${GIT_REPOSITORIES}/comp-java-${comp}.git"
+  echo "===== ${component} ====="
+  clone_pull_repository ${JAVA_SOURCE_DIR} "comp-java-${component}" "${GIT_REPOSITORIES}/comp-java-${component}.git"
 done
 
 echo '\nBuilding...'
-for component in ${COMP_LOGGER} ${COMP_SFTPCLIENT} ${COMP_JMSCLIENT} ${COMP_REGEX} ${COMP_EMAILVALIDATOR} ${COMP_SSHCLIENT} ${COMP_IMPORTTABLE};
+for component in ${COMPONENTS}
 do  
-  mvn clean install -f "comp-java-${component}"
+  echo "===== ${component} ====="
+  mvn --quiet clean install -f "comp-java-${component}"
   JAR_FILE="${JAVA_SOURCE_DIR}/comp-java-${component}/target/${component}-jar-with-dependencies.jar"
   TEMPLATE_FILE="${TEMPLATES_DIR}/${component}/Ext/Template.bin"
   if [ -e ${JAR_FILE} ]
   then
+    if ! [ -e "${TEMPLATES_DIR}/${component}" ]
+    then
+      mkdir "${TEMPLATES_DIR}/${component}"
+      if ! [ -e "${TEMPLATES_DIR}/${component}/Ext" ]
+      then
+        mkdir "${TEMPLATES_DIR}/${component}/Ext"
+      fi
+    fi
     cp ${JAR_FILE} ${TEMPLATE_FILE}
   else
     echo "Jar-file not found... ${JAR_FILE}"
