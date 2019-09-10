@@ -37,8 +37,8 @@
 		<Metadata name="Catalog.КомпонентыJava.Template.sftpclient.Template" id="4be5e3f0-eb57-11e7-7989-0cd2925c3816.0" configVersion="efb3f5d39392f749a569ca58af58b22200000000"/>
 		<Metadata name="Catalog.КомпонентыJava.Template.sshclient" id="51958ece-bf71-11e8-7a8d-0cd2925c3816" configVersion="e3f59ba2c4db3e4f8c668497bcacc89100000000"/>
 		<Metadata name="Catalog.КомпонентыJava.Template.sshclient.Template" id="51958ece-bf71-11e8-7a8d-0cd2925c3816.0" configVersion="ec87a7e8c8f4554aa34cd1f0dd27365c00000000"/>
-		<Metadata name="CommonModule.КомпонентыJava" id="83a0a160-fd84-49e2-b20e-a91e8fcea54c" configVersion="77d3fe00c834bd4ea40e955bd5ce91ca00000000"/>
-		<Metadata name="CommonModule.КомпонентыJava.Module" id="83a0a160-fd84-49e2-b20e-a91e8fcea54c.0" configVersion="f6e3400f3ccba74daebabcfe141897a800000000"/>
+		<Metadata name="CommonModule.КомпонентыJava" id="83a0a160-fd84-49e2-b20e-a91e8fcea54c" configVersion="0e78c5a0e556c242b0243ed98410272d00000000"/>
+		<Metadata name="CommonModule.КомпонентыJava.Module" id="83a0a160-fd84-49e2-b20e-a91e8fcea54c.0" configVersion="a68a6b9c16c27d47803a978dfc24991200000000"/>
 		<Metadata name="CommonModule.КомпонентыJavaAPI" id="bacbcc86-eb4c-11e7-7989-0cd2925c3816" configVersion="018cabd1d2991440ae358449de32da7900000000"/>
 		<Metadata name="CommonModule.КомпонентыJavaAPI.Module" id="bacbcc86-eb4c-11e7-7989-0cd2925c3816.0" configVersion="13d9a210905339448a44be138f6fc3be00000000"/>
 		<Metadata name="CommonModule.КомпонентыJavaВызовСервера" id="128213f8-380c-4bee-b793-be78fcce77d0" configVersion="3574ee55f585f34db022c2b70c76cded00000000"/>
@@ -48,7 +48,7 @@
 		<Metadata name="CommonModule.КомпонентыJavaКлиентСервер.Module" id="a8af846e-adcc-4554-bb4f-b52af7ab9fd3.0" configVersion="ff77590eadcc694b945c3bc7fc9f808200000000"/>
 		<Metadata name="CommonModule.КомпонентыJavaПовтИсп" id="f307de48-ebea-11e7-549d-0cd2925c3816" configVersion="41fa4548fd643944ae4d6785ac7fff2f00000000"/>
 		<Metadata name="CommonModule.КомпонентыJavaПовтИсп.Module" id="f307de48-ebea-11e7-549d-0cd2925c3816.0" configVersion="297577f26d58544da4737cf7062661f000000000"/>
-		<Metadata name="Configuration.КомпонентыJava" id="8e5afc24-ce5c-4b4c-89f1-e195f1f76c11" configVersion="d02acdd935a4ec4b85c609995608a85400000000"/>
+		<Metadata name="Configuration.КомпонентыJava" id="8e5afc24-ce5c-4b4c-89f1-e195f1f76c11" configVersion="b96c9209a5a80847a70d0d3ee142ce1600000000"/>
 		<Metadata name="Configuration.КомпонентыJava.CommandInterface" id="0df74922-642a-4faf-af30-76348707b314.a" configVersion="ab4a93c7799bae41b18feed58bd67b8000000000"/>
 		<Metadata name="Constant.JAVA_HOME" id="5b7a3249-97ab-439f-8b3c-1a01025603c5" configVersion="f520e7625e660d46b8b3a2e325cb9d1200000000"/>
 		<Metadata name="DataProcessor.CSVОбъект" id="caf832cc-ebd6-11e7-549d-0cd2925c3816" configVersion="2a080f6e9c7cea47909859dec24c1cc700000000">
