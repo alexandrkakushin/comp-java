@@ -1,10 +1,13 @@
 #!/bin/bash
-# Скрипт для сборки конфигурации "Компоненты Java"
+# Скрипт для сборки подсистемы "Компоненты Java"
 
 clear
 
-#BASEDIR="$(pwd)"
-BASEDIR="/tmp/comp-java"
+TARGET_DIR="$(pwd)"/target
+if [ ! -e ${TARGET_DIR} ]
+then
+  mkdir ${TARGET_DIR} 
+fi
 
 GIT_REPOSITORIES='https://github.com/alexandrkakushin'
 
@@ -13,17 +16,14 @@ COMP_SFTPCLIENT='sftpclient'
 COMP_JMSCLIENT='jmsclient'
 COMP_REGEX='regex'
 COMP_EMAILVALIDATOR='emailvalidator'
-COMP_SSHCLIENT='sshclient'
-COMP_IMPORTTABLE='importtable'
-COMP_LDAPCLIENT='ldapclient'
+COMP_EXCELCLIENT="excelclient"
 
-COMPONENTS="${COMP_LOGGER} ${COMP_SFTPCLIENT} ${COMP_JMSCLIENT} ${COMP_REGEX} ${COMP_EMAILVALIDATOR} ${COMP_SSHCLIENT} ${COMP_IMPORTTABLE} ${COMP_LDAPCLIENT}"
 GIT_COMPJAVA="${GIT_REPOSITORIES}/comp-java.git"
 
-TEMPLATES_DIR="${BASEDIR}/comp-java/Catalogs/КомпонентыJava/Templates"
-JAVA_SOURCE_DIR="${BASEDIR}/java-source"
+TEMPLATES_DIR="${TARGET_DIR}/comp-java/Catalogs/КомпонентыJava/Templates"
+JAVA_SOURCE_DIR="${TARGET_DIR}/java-source"
 
-clone_pull_repository(){
+clone_repository(){
   LOCAL_BASEBIR=$1
   NAME_REPOSITORY=$2
   REMOTE_REPOSITORY=$3
@@ -32,59 +32,57 @@ clone_pull_repository(){
     
   LOCAL_REPOSITORY="${LOCAL_BASEBIR}/${NAME_REPOSITORY}"
 
-  echo ${LOCAL_REPOSITORY}  
   if [ -e ${LOCAL_REPOSITORY} ]; then
-    if [ -e "${LOCAL_REPOSITORY}/.git" ]; then	
-      git pull
-    else
-      rm -R ${LOCAL_REPOSITORY}
-      git clone ${REMOTE_REPOSITORY}
-	  fi
-  else
-    git clone ${REMOTE_REPOSITORY}
+      rm -rf ${LOCAL_REPOSITORY}
   fi
+  
+  git clone --quiet ${REMOTE_REPOSITORY}
 }
 
+echo "Cloning repositories:"
+
 # Клонирование основного репозитория
-echo "Clone/pull COMP-JAVA (1C:Enterprise) repository"
-clone_pull_repository ${BASEDIR} "comp-java" ${GIT_COMPJAVA}
-#git clone ${GIT_COMPJAVA}
+echo " - 1C:Enterprise configuration"
+clone_repository ${TARGET_DIR} "comp-java" ${GIT_COMPJAVA}
 
 # Клонирование репозиториев компонент, сборка
-echo "\nClone/pull Java-components repository" 
+echo " - Java-components" 
 if [ ! -e ${JAVA_SOURCE_DIR} ]
 then
   mkdir ${JAVA_SOURCE_DIR} 
 fi
-for component in ${COMPONENTS}
+for comp in ${COMP_LOGGER} ${COMP_SFTPCLIENT} ${COMP_JMSCLIENT} ${COMP_REGEX} ${COMP_EMAILVALIDATOR} ${COMP_EXCELCLIENT}
 do
-  echo "===== ${component} ====="
-  clone_pull_repository ${JAVA_SOURCE_DIR} "comp-java-${component}" "${GIT_REPOSITORIES}/comp-java-${component}.git"
+  echo "   - ${comp}"
+  clone_repository ${JAVA_SOURCE_DIR} "comp-java-${comp}" "${GIT_REPOSITORIES}/comp-java-${comp}.git"
 done
 
 echo '\nBuilding...'
-for component in ${COMPONENTS}
-do  
-  echo "===== ${component} ====="
+for component in ${COMP_LOGGER} ${COMP_SFTPCLIENT} ${COMP_JMSCLIENT} ${COMP_REGEX} ${COMP_EMAILVALIDATOR} ${COMP_EXCELCLIENT};
+do
+  echo " - ${component}"  
+  
   mvn --quiet clean install -f "comp-java-${component}"
   JAR_FILE="${JAVA_SOURCE_DIR}/comp-java-${component}/target/${component}-jar-with-dependencies.jar"
-  TEMPLATE_FILE="${TEMPLATES_DIR}/${component}/Ext/Template.bin"
+  
+  TEMPLATE_DIR_EXT="${TEMPLATES_DIR}/${component}/Ext"
+  if [ ! -e ${TEMPLATE_DIR_EXT} ] 
+  then
+    mkdir -p ${TEMPLATE_DIR_EXT}
+  fi
+  
+  TEMPLATE_BIN="${TEMPLATE_DIR_EXT}/Template.bin"
+  
   if [ -e ${JAR_FILE} ]
   then
-    if ! [ -e "${TEMPLATES_DIR}/${component}" ]
-    then
-      mkdir "${TEMPLATES_DIR}/${component}"
-      if ! [ -e "${TEMPLATES_DIR}/${component}/Ext" ]
-      then
-        mkdir "${TEMPLATES_DIR}/${component}/Ext"
-      fi
-    fi
-    cp ${JAR_FILE} ${TEMPLATE_FILE}
+    cp ${JAR_FILE} ${TEMPLATE_BIN}
   else
     echo "Jar-file not found... ${JAR_FILE}"
-  fi    
+  fi
+
+  echo    
 done
 
-echo 'Complete'
+echo 'FINISH'
 
 exit 0
