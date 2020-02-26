@@ -1,32 +1,16 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.9">
-	<DataProcessor uuid="afdb51c0-1036-11e8-4183-0cd2925c3816">
-		<InternalInfo>
-			<xr:GeneratedType name="DataProcessorObject.RegEx" category="Object">
-				<xr:TypeId>afdb51ac-1036-11e8-4183-0cd2925c3816</xr:TypeId>
-				<xr:ValueId>afdb51b6-1036-11e8-4183-0cd2925c3816</xr:ValueId>
-			</xr:GeneratedType>
-			<xr:GeneratedType name="DataProcessorManager.RegEx" category="Manager">
-				<xr:TypeId>afdb51b7-1036-11e8-4183-0cd2925c3816</xr:TypeId>
-				<xr:ValueId>afdb51b8-1036-11e8-4183-0cd2925c3816</xr:ValueId>
-			</xr:GeneratedType>
-		</InternalInfo>
+	<Template uuid="73cb2608-2751-4da2-8acd-8ca397dc6e87">
 		<Properties>
-			<Name>RegEx</Name>
+			<Name>excelclient</Name>
 			<Synonym>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>RegЕx</v8:content>
+					<v8:content>Excelclient</v8:content>
 				</v8:item>
 			</Synonym>
 			<Comment/>
-			<UseStandardCommands>true</UseStandardCommands>
-			<DefaultForm/>
-			<AuxiliaryForm/>
-			<IncludeHelpInContents>false</IncludeHelpInContents>
-			<ExtendedPresentation/>
-			<Explanation/>
+			<TemplateType>BinaryData</TemplateType>
 		</Properties>
-		<ChildObjects/>
-	</DataProcessor>
+	</Template>
 </MetaDataObject>

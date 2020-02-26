@@ -12,7 +12,8 @@
   <li>Импорт MS Excel (.xls, .xlsx)</li>
   <li>Импорт из CSV-файлов</li>  
   <li>SSH-клиент</li>  		
-  <li>LDAP-клиент</li>  	
+  <li>LDAP-клиент</li>
+  <li>Excel-клиент</li>  	
 </ul>
 
 <hr>
