@@ -1,0 +1,16 @@
+[
+	{
+		"name": "Excel-клиент",
+		"language": "java",
+		"port": 48807,
+		"description": null,
+		"github": {
+			"account": "alexandrkakushin",
+			"repository": "comp-java-excelclient",
+			"artifacts": {
+				"main": "excelclient-jar-with-dependencies.jar",
+				"epf": "excelclient.epf"
+			}
+		}
+	}
+]
