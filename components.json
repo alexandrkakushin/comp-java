@@ -1,9 +1,24 @@
 [
 	{
+		"name": "E-mail валидатор",
+		"language": "java",
+		"port": 48800,
+		"description": "Проверка адресов электронной почты",
+		"github": {
+			"account": "alexandrkakushin",
+			"repository": "comp-java-emailvalidator",
+			"artifacts": {
+				"main": "emailvalidator-jar-with-dependencies.jar",
+				"epf": "emailvalidator.epf"
+			}
+		}
+	},
+
+	{
 		"name": "Excel-клиент",
 		"language": "java",
 		"port": 48807,
-		"description": null,
+		"description": "Клиент для работы с Excel-файлами (xlsx, xls)",
 		"github": {
 			"account": "alexandrkakushin",
 			"repository": "comp-java-excelclient",
@@ -12,5 +27,95 @@
 				"epf": "excelclient.epf"
 			}
 		}
-	}
+	},
+	
+	{
+		"name": "JMS-клиент",
+		"language": "java",
+		"port": 48732,
+		"description": "Поддержка JMS в конфигурациях 1С:Предприятие",
+		"github": {
+			"account": "alexandrkakushin",
+			"repository": "comp-java-jmsclient",
+			"artifacts": {
+				"main": "jmsclient-jar-with-dependencies.jar",
+				"epf": "jmsclient.epf"
+			}
+		}
+	},
+
+	{
+		"name": "LDAP-клиент",
+		"language": "java",
+		"port": 48806,
+		"description": "Клиент для работы с LDAP (Active Directory и Astra Linux Directory)",
+		"github": {
+			"account": "alexandrkakushin",
+			"repository": "comp-java-ldapclient",
+			"artifacts": {
+				"main": "ldapclient-jar-with-dependencies.jar",
+				"epf": "ldapclient.epf"
+			}
+		}
+	},
+
+	{
+		"name": "Логгер",
+		"language": "java",
+		"port": 48804,
+		"description": "Инструмент для создания логов",
+		"github": {
+			"account": "alexandrkakushin",
+			"repository": "comp-java-logger",
+			"artifacts": {
+				"main": "logger-jar-with-dependencies.jar",
+				"epf": "logger.epf"
+			}
+		}
+	},	
+	
+	{
+		"name": "Регулярные выражения",
+		"language": "java",
+		"port": 48803,
+		"description": "Инструмент для работы с регулярными выражениями",
+		"github": {
+			"account": "alexandrkakushin",
+			"repository": "comp-java-regex",
+			"artifacts": {
+				"main": "regex-jar-with-dependencies.jar",
+				"epf": "regex.epf"
+			}
+		}
+	},	
+	
+	{
+		"name": "SFTP-клиент",
+		"language": "java",
+		"port": 48802,
+		"description": "SFTP-клиент",
+		"github": {
+			"account": "alexandrkakushin",
+			"repository": "comp-java-sftpclient",
+			"artifacts": {
+				"main": "sftpclient-jar-with-dependencies.jar",
+				"epf": "sftpclient.epf"
+			}
+		}
+	},	
+	
+	{
+		"name": "SSH-клиент",
+		"language": "java",
+		"port": 48805,
+		"description": "SSH-клиент",
+		"github": {
+			"account": "alexandrkakushin",
+			"repository": "comp-java-sshclient",
+			"artifacts": {
+				"main": "sshclient-jar-with-dependencies.jar",
+				"epf": "sshclient.epf"
+			}
+		}
+	}		
 ]
