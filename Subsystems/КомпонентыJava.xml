@@ -17,15 +17,15 @@
 			<Content>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.КомпонентыJava</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.КомпонентыJavaВызовСервера</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.КомпонентыJavaКлиентСервер</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.КомпонентыJavaКлиент</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">a8af846e-adcc-4554-bb4f-b52af7ab9fd3</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">2bf733e3-d0aa-489a-a3ee-2ef3b8e1ee43</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.КомпонентыJava</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Constant.JAVA_HOME</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.EMailВалидатор</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.JMSКлиент</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.КомпонентыJavaAPI</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">2d4ff6a2-eb4c-11e7-7989-0cd2925c3816</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">1e01a942-eb52-11e7-7989-0cd2925c3816</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">bacbcc86-eb4c-11e7-7989-0cd2925c3816</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.КомпонентыJavaПовтИсп</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">Enum.Кодировки</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">ad282c65-f45e-11e7-f383-0cd2925c3816</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects>

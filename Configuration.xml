@@ -45,7 +45,7 @@
 			<ScriptVariant>Russian</ScriptVariant>
 			<DefaultRoles/>
 			<Vendor>Александр Какушин (alexandrkakushin@yandex.ru)</Vendor>
-			<Version>1.1.9.1</Version>
+			<Version>1.2.0.1</Version>
 			<UpdateCatalogAddress/>
 			<IncludeHelpInContents>false</IncludeHelpInContents>
 			<UseManagedFormInOrdinaryApplication>true</UseManagedFormInOrdinaryApplication>
@@ -201,25 +201,10 @@
 			<Language>Русский</Language>
 			<Subsystem>КомпонентыJava</Subsystem>
 			<CommonModule>КомпонентыJava</CommonModule>
-			<CommonModule>КомпонентыJavaAPI</CommonModule>
 			<CommonModule>КомпонентыJavaВызовСервера</CommonModule>
-			<CommonModule>КомпонентыJavaКлиент</CommonModule>
-			<CommonModule>КомпонентыJavaКлиентСервер</CommonModule>
 			<CommonModule>КомпонентыJavaПовтИсп</CommonModule>
 			<Constant>JAVA_HOME</Constant>
 			<Catalog>КомпонентыJava</Catalog>
-			<Enum>Кодировки</Enum>
-			<DataProcessor>EMailВалидатор</DataProcessor>
-			<DataProcessor>JMSКлиент</DataProcessor>
-			<DataProcessor>SFTPКлиент</DataProcessor>
-			<DataProcessor>SQLОбъект</DataProcessor>
-			<DataProcessor>ExcelОбъект</DataProcessor>
-			<DataProcessor>CSVОбъект</DataProcessor>
-			<DataProcessor>RegEx</DataProcessor>
-			<DataProcessor>Логгер</DataProcessor>
-			<DataProcessor>SSHКлиент</DataProcessor>
-			<DataProcessor>LDAPКлиент</DataProcessor>
-			<DataProcessor>ExcelКлиент</DataProcessor>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>

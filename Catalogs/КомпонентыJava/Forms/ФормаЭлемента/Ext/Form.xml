@@ -28,6 +28,7 @@
 			<ChildItems>
 				<InputField name="Наименование" id="4">
 					<DataPath>Объект.Description</DataPath>
+					<ReadOnly>true</ReadOnly>
 					<EditMode>EnterOnInput</EditMode>
 					<ContextMenu name="НаименованиеКонтекстноеМеню" id="5"/>
 					<ExtendedTooltip name="НаименованиеРасширеннаяПодсказка" id="6"/>
@@ -141,6 +142,43 @@
 						</Button>
 					</ChildItems>
 				</UsualGroup>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="ГруппаGitHub" id="43">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>GitHub</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа git hub</v8:content>
+				</v8:item>
+			</ToolTip>
+			<ExtendedTooltip name="ГруппаGitHubРасширеннаяПодсказка" id="44"/>
+			<ChildItems>
+				<InputField name="GitHubАккаунт" id="45">
+					<DataPath>Объект.GitHubАккаунт</DataPath>
+					<ContextMenu name="GitHubАккаунтКонтекстноеМеню" id="46"/>
+					<ExtendedTooltip name="GitHubАккаунтРасширеннаяПодсказка" id="47"/>
+				</InputField>
+				<InputField name="GitHubРепозиторий" id="48">
+					<DataPath>Объект.GitHubРепозиторий</DataPath>
+					<ContextMenu name="GitHubРепозиторийКонтекстноеМеню" id="49"/>
+					<ExtendedTooltip name="GitHubРепозиторийРасширеннаяПодсказка" id="50"/>
+				</InputField>
+				<InputField name="JAR" id="51">
+					<DataPath>Объект.ОсновнойАртефакт</DataPath>
+					<ContextMenu name="JARКонтекстноеМеню" id="52"/>
+					<ExtendedTooltip name="JARРасширеннаяПодсказка" id="53"/>
+				</InputField>
+				<InputField name="EPF" id="54">
+					<DataPath>Объект.EPF</DataPath>
+					<ContextMenu name="EPFКонтекстноеМеню" id="55"/>
+					<ExtendedTooltip name="EPFРасширеннаяПодсказка" id="56"/>
+				</InputField>
 			</ChildItems>
 		</UsualGroup>
 		<UsualGroup name="СтраницаСистемныеНастройки" id="34">
