@@ -45,7 +45,7 @@
 			<ScriptVariant>Russian</ScriptVariant>
 			<DefaultRoles/>
 			<Vendor>Александр Какушин (alexandrkakushin@yandex.ru)</Vendor>
-			<Version>1.2.0.1</Version>
+			<Version>1.2.0.6</Version>
 			<UpdateCatalogAddress/>
 			<IncludeHelpInContents>false</IncludeHelpInContents>
 			<UseManagedFormInOrdinaryApplication>true</UseManagedFormInOrdinaryApplication>
@@ -203,6 +203,7 @@
 			<CommonModule>КомпонентыJava</CommonModule>
 			<CommonModule>КомпонентыJavaВызовСервера</CommonModule>
 			<CommonModule>КомпонентыJavaПовтИсп</CommonModule>
+			<CommonModule>КомпонентыJavaКлиент</CommonModule>
 			<Constant>JAVA_HOME</Constant>
 			<Catalog>КомпонентыJava</Catalog>
 		</ChildObjects>
