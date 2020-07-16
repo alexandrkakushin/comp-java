@@ -123,8 +123,8 @@
 		"name": "Работа с архивами",
 		"language": "java",
 		"port": 48808,
+		"description": "Работа с архивами ZIP, RAR, 7Z",		
 		"github": {
-		"description": "Работа с архивами ZIP, RAR, 7Z",
 			"account": "alexandrkakushin",
 			"repository": "comp-java-compress",
 			"artifacts": {
