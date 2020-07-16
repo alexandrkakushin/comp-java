@@ -117,5 +117,20 @@
 				"epf": "sshclient.epf"
 			}
 		}
-	}		
+	},
+
+	{
+		"name": "Работа с архивами",
+		"language": "java",
+		"port": 48808,
+		"github": {
+		"description": "Работа с архивами ZIP, RAR, 7Z",
+			"account": "alexandrkakushin",
+			"repository": "comp-java-compress",
+			"artifacts": {
+				"main": "compress-jar-with-dependencies.jar",
+				"epf": "compress.epf"
+			}
+		}
+	}			
 ]
