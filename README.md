@@ -27,7 +27,10 @@
   </li>
   <li>
     <a href = "https://github.com/alexandrkakushin/comp-java-excelclient">Excel-клиент</a>
-  </li>  	
+  </li>
+  <li>
+    <a href = "https://github.com/alexandrkakushin/comp-java-compress">Работа с архивами</a>
+  </li>  
 </ul>
 
 ## Внедрение
